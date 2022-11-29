@@ -1,11 +1,11 @@
 function Button(props){
 
-    const {text}=props
+    const {text}=props;
     return(
         <div>
-    <button>{text}</button>
+      <button>{text}</button>
         </div>
     )
 }
 
-export default Button
+export default Button;
